@@ -1,0 +1,25 @@
+html, body {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid;
+}
+
+#main {
+    position: relative;
+    left: 33%;
+    right: 33%;
+    margin-top: 20px;
+}
+
+#container {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    border: solid;
+    border-radius: 1%;
+}
